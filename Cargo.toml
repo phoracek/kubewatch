@@ -1,6 +1,6 @@
 [package]
 name = "kubewatch"
-version = "0.9.0"
+version = "0.9.1"
 authors = ["Petr Horáček <phoracek@redhat.com>"]
 license = "MIT"
 readme = "README.md"
