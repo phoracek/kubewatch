@@ -5,6 +5,9 @@ authors = ["Petr Horáček <phoracek@redhat.com>"]
 
 [dependencies]
 hyper = "*"
+serde = "*"
+serde_json = "*"
 
 [dev-dependencies]
 matches = "*"
+serde_derive = "*"
