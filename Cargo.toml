@@ -6,6 +6,7 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/phoracek/kubewatch"
 homepage = "https://github.com/phoracek/kubewatch"
+documentation = "https://docs.rs/kubewatch"
 description = """
 This library serves as a base component for Kubernetes event watching.
 """
