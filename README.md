@@ -1,6 +1,7 @@
 # Kubewatch
 
 [![Build Status](https://travis-ci.org/phoracek/kubewatch.svg?branch=master)](https://travis-ci.org/phoracek/kubewatch)
+[![crates.io](https://meritbadge.herokuapp.com/kubewatch)](https://crates.io/crates/kubewatch)
 
 This library serves as a base component for Kubernetes event watching. It allows user to
 specify which resource should be monitored. Deserialization of events is done via
