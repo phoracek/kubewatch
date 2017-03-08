@@ -25,7 +25,7 @@ mod pod {
 
 fn main() {
     let cluster = kubewatch::Cluster::new("http://localhost:8080").unwrap();
-    let events = cluster.events::<pod::Event>("pods").unwrap();
+    let events = cluster.events::<pod::Event>("api/v1/pods").unwrap();
     for event in events.into_iter() {
         println!("{:#?}", event);
     }

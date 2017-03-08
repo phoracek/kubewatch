@@ -103,7 +103,7 @@ impl Events for Cluster {
     fn events<Event>(&self, name: &str) -> Result<Receiver<Result<Event, Error>>, Error>
         where Event: Deserialize + Send + 'static
     {
-        let path = format!("api/v1/{}?watch=true", name);
+        let path = format!("{}?watch=true", name);
         let bytes = try!(self.get(&path)).bytes();
         Ok(self.generator(bytes))
     }
